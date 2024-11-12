@@ -1,7 +1,7 @@
 // src/components/Sidebar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from assets
+import logo from '../assets/Logo.png'; 
 
 const Sidebar = () => {
     return (
