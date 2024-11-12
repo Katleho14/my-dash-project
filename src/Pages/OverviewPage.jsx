@@ -1,8 +1,8 @@
-// src/pages/Overview.js
+
 
 import React from 'react';
 import KPICard from '../components/KPICard';
-import Products from '../components/Products'; // Import Products component
+import Products from '../components/ProductList';
 import TransactionHistory from '../components/TransactionHistory'; // Import TransactionHistory component
 
 const Overview = () => {
