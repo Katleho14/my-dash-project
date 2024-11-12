@@ -1,7 +1,7 @@
 // src/pages/Overview.js
 
 import React from 'react';
-import KPI_Cards from '../components/KPI_Cards'; // Import KPI_Cards component
+import KPICard from '../components/KPICard';
 import Products from '../components/Products'; // Import Products component
 import TransactionHistory from '../components/TransactionHistory'; // Import TransactionHistory component
 
@@ -10,8 +10,9 @@ const Overview = () => {
     <div className="flex flex-col p-6">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Overview</h1>
 
-      {/* KPI Cards Section */}
-      <KPI_Cards />
+       {/* KPI Cards Section */}
+       <KPICard/>
+
 
       {/* Products Section */}
       <div className="mt-8">

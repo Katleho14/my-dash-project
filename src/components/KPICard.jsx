@@ -2,7 +2,7 @@
 import React from 'react';
 
 // KPI Card Component
-const KPICard = ({ title, value, percentage, icon, iconBg, iconColor }) => {
+const KPICard= ({ title, value, percentage, icon, iconBg, iconColor }) => {
     return (
         <div className="bg-white p-6 rounded-lg shadow">
             <div className="flex items-center">
